@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ESNext", "dom"],
+    "module": "ESNext",
+    "strict": true,
+    "customConditions": ["dev"],
+    "moduleResolution": "Bundler",
+    "skipLibCheck": false,
+    "importHelpers": true,
+    "incremental": true,
+    "jsx": "react",
+    "types": ["jest"]
+  },
+  "include": [".storybook/**/*", "src/**/*", "stories/**/*", "tests/**/*", "*"],
+  "exclude": ["dist"]
+}
